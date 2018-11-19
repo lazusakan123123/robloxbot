@@ -88,6 +88,11 @@ client.on('message', msg => {
     msg.reply('**Öyle Olsun :sob: :sob:** ');
   }
 });
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '+site') {
+    msg.reply('**robloxbot.cf/wp/** ');
+  }
+});
 
 client.elevation = message => {
   if(!message.guild) {
