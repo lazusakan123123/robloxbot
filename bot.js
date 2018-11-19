@@ -90,7 +90,7 @@ client.on('message', msg => {
 });
 client.on('message', msg => {
   if (msg.content.toLowerCase() === '?site') {
-    msg.reply('**robloxbot.cf/wp/** ');
+    msg.reply('robloxbot.cf/wp/');
   }
 });
 
